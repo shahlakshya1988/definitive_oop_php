@@ -1,5 +1,6 @@
 <?php
-
+namespace classes;
+use classes\interfaces\IGadget as IGadget;
 class LaptopProduct extends Product implements IGadget
 {
 
